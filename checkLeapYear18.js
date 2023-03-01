@@ -1,9 +1,8 @@
 function isLeapYear(year){
-    const remainder = year % 4;
-    if(remainder === 0) {
-        return "Year is leap year";
+    if((year % 400 === 0 || year % 100 !== 0) && year % 4 === 0) {
+        return true;
     }else{
-        return "Year is not leap year"
+        return false;
     }
 }
-console.log(isLeapYear(2025));
+console.log(isLeapYear(1600));
