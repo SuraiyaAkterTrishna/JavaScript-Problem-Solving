@@ -19,7 +19,7 @@ function gradeCalculator(number){
     }
     else{
         return "Oops! You are fail.."
-    }
+    }  
 }
 const myNumber = 70; 
 const myGrade = gradeCalculator(myNumber);
