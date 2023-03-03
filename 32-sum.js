@@ -1,3 +1,4 @@
+// summation of three numbers 
 function sumThreeNumbers(a, b, c){
     var sum = a + b + c;
     return sum; 
