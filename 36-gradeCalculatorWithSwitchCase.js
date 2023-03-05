@@ -27,3 +27,9 @@ function gradeCalculator(mark){
 const myMark = 75; 
 const myGrade = gradeCalculator(myMark);
 console.log(myGrade);
+
+
+
+const mark = 60;
+
+mark > 80 ? console.log("A+") : console.log("not A+");
