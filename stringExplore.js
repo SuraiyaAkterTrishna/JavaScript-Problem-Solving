@@ -8,7 +8,7 @@ myAddress = myAddress + ' ' + 'Jessore';
 // string comparison with toUpperCase() and toLowerCase()
 const userName = 'Rony';
 const userInput = 'rony';
-if(userName.toUpperCase === userInput.toUpperCase){
+if(userName.toUpperCase() === userInput.toUpperCase()){
     console.log('Valid User');
 }
 else {
