@@ -1,3 +1,4 @@
+// first 
 const names = ['abul', 'babul', 'cabul', 'dabul', 'kabul', 'babul'];
 function removeDuplicate(names){
     let unique = [];
@@ -12,12 +13,13 @@ function removeDuplicate(names){
 const uniqueNames = removeDuplicate(names);
 console.log(uniqueNames);
 
+// second 
 const numbers = [51, 41, 61, 51, 21, 41, 31, 61, 61, 71, 61, 71, 81, 31];
 function removeDuplicateNumbers(numbers){
     let uniqueNumbers = [];
     for(let i = 0; i < numbers.length; i++){
         const number = numbers[i];
-        if(uniqueNumbers.includes(number) === false){
+        if(uniqueNumbers.indexOf(number) === -1){
             uniqueNumbers.push(number);
         }
     }
@@ -25,3 +27,4 @@ function removeDuplicateNumbers(numbers){
 }
 const uniqueNumbersFromArray = removeDuplicateNumbers(numbers);
 console.log(uniqueNumbersFromArray);
+
