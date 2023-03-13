@@ -8,13 +8,15 @@
 for(let i = 1; i <= 50; i++){
     let number = i;
     if((number % 3 === 0) && (number % 5 === 0)){
-        number = 'foobar';
+        console.log('foo');
     }
-    if(number % 3 === 0){
-        number = 'foo';
+    else if(number % 3 === 0){
+        console.log('bar');
     }
-    if(number % 5 === 0){
-        number = 'bar';
+    else if(number % 5 === 0){
+        console.log('foobar');
     }
-    console.log(number);
+    else {
+        console.log(number);
+    }
 }
