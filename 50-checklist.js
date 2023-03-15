@@ -79,4 +79,10 @@ for (const book of myBook) {
     // console.log(book);
 }
 
+const numbers = [11, 13, 68, 92, 89, 72, 55, 85, 91];
+for(const number of numbers){
+    if(number > 80) {
+        console.log(number);
+    }
+}
 
