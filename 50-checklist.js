@@ -54,8 +54,29 @@ else{
 
 let i = 7; 
 while(i <= 19){
-    console.log(i);
+    // console.log(i);
     i = i+2;
+}
+
+const myBook = ['bela furabar age', 'atomic habits', 'think and grow rich', 'the seven habits of highly effective people', 'the magic of thinking big', 'paradoxical sazid'];
+
+// console.log(myBook.length);
+
+myBook[3] = 'productive muslim';
+// console.log(myBook);
+
+myBook.push('never stop learning', 'student hacks');
+
+
+myBook.pop();
+// console.log(myBook);
+
+/* for(let i = 0; i < myBook.length; i++){
+    console.log(myBook[i]);
+} */
+
+for (const book of myBook) {
+    // console.log(book);
 }
 
 
