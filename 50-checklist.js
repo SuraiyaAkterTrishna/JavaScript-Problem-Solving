@@ -82,7 +82,14 @@ for (const book of myBook) {
 const numbers = [11, 13, 68, 92, 89, 72, 55, 85, 91];
 for(const number of numbers){
     if(number > 80) {
-        console.log(number);
+        // console.log(number);
     }
 }
+
+function sum(a, b, c){
+    const output = a + b + c;
+    return output;
+}
+const result = sum(1, 2, 3);
+console.log(result);
 
