@@ -46,10 +46,10 @@ else {
 } */
 
 if(rabbi >= sagor || rabbi != sagor){
-    console.log('Rabbi is rich');
+    // console.log('Rabbi is rich');
 }
 else{
-    console.log('Sagor is rich');
+    // console.log('Sagor is rich');
 }
 
 
