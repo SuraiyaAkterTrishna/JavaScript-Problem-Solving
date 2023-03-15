@@ -16,8 +16,8 @@ let mySalary = '300 usd';
 mySalary = '500 usd'; //but reassign possible
 // console.log(mySalary);
 
-const rabbi = 150; 
-const sagor = 250; 
+const rabbi = 350; 
+const sagor = 350; 
 
 const total = rabbi + sagor; 
 // console.log(total);
@@ -45,14 +45,11 @@ else {
     console.log('They have no money');
 } */
 
-if(rabbi >= sagor){
+if(rabbi >= sagor || rabbi != sagor){
     console.log('Rabbi is rich');
 }
-/* else if(rabbi <= sagor){
+else{
     console.log('Sagor is rich');
-} */
-else if(rabbi != sagor){
-    console.log('rabbi have to improve');
 }
 
 
