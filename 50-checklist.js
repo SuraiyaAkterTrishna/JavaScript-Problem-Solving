@@ -16,8 +16,8 @@ let mySalary = '300 usd';
 mySalary = '500 usd'; //but reassign possible
 // console.log(mySalary);
 
-const rabbi = 50; 
-const sagor = 100; 
+const rabbi = 150; 
+const sagor = 250; 
 
 const total = rabbi + sagor; 
 // console.log(total);
@@ -30,4 +30,29 @@ const multiplyMoney = rabbi * sagor;
 
 const divineMoney = sagor / rabbi;
 // console.log(divineMoney);
+
+// comparison
+/* if(rabbi > sagor){
+    console.log('rabbi has more money');
+}
+else if(rabbi < sagor){
+    console.log('sagor has more money');
+}
+else if(rabbi == sagor){
+    console.log('they have equal amount of money');
+}
+else {
+    console.log('They have no money');
+} */
+
+if(rabbi >= sagor){
+    console.log('Rabbi is rich');
+}
+/* else if(rabbi <= sagor){
+    console.log('Sagor is rich');
+} */
+else if(rabbi != sagor){
+    console.log('rabbi have to improve');
+}
+
 
