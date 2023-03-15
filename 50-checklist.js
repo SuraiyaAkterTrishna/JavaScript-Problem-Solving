@@ -91,5 +91,15 @@ function sum(a, b, c){
     return output;
 }
 const result = sum(1, 2, 3);
-console.log(result);
+// console.log(result);
+
+let student = {
+    name: 'sagor', 
+    age: 23, 
+    address: 'jessore',
+}
+// console.log(student);
+
+student.address = 'khulna';
+console.log(student);
 
